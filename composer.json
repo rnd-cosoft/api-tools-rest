@@ -45,6 +45,7 @@
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.3.0",
+        "laminas/laminas-db": "^2.20",
         "laminas/laminas-escaper": "^2.9.0",
         "laminas/laminas-http": "^2.15.1",
         "laminas/laminas-inputfilter": "^2.13.0",
