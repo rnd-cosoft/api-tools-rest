@@ -34,10 +34,10 @@
     },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas-api-tools/api-tools-api-problem": "^1.6.0",
-        "laminas-api-tools/api-tools-content-negotiation": "^1.8.0",
-        "laminas-api-tools/api-tools-hal": "^1.8",
-        "laminas-api-tools/api-tools-mvc-auth": "^1.8",
+        "rnd-cosoft/api-tools-api-problem": "^1.6.0",
+        "rnd-cosoft/api-tools-content-negotiation": "^1.8.0",
+        "rnd-cosoft/api-tools-hal": "^1.8",
+        "rnd-cosoft/api-tools-mvc-auth": "^1.8",
         "laminas/laminas-eventmanager": "^3.4",
         "laminas/laminas-mvc": "^2.7.14 || ^3.3.0",
         "laminas/laminas-paginator": "^2.11",
@@ -80,6 +80,7 @@
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     },
     "replace": {
-        "zfcampus/zf-rest": "^1.5.0"
+        "zfcampus/zf-rest": "^1.5.0",
+        "laminas-api-tools/api-tools-rest": "*"
     }
 }
